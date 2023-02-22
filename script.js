@@ -11,6 +11,14 @@ const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
+const name0 = document.getElementById('name--0');
+const name1 = document.getElementById('name--1');
+
+const player0 = prompt('Kindly Register here. Player 1 name?');
+const player1 = prompt('Kindly Register here. Player 2 name?');
+
+name0.textContent = player0;
+name1.textContent = player1;
 
 //starting conditions
 let scores, currentScore, activePlayer, playing;
